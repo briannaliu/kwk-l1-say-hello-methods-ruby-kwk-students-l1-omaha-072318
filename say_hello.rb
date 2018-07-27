@@ -4,3 +4,7 @@ def say_hello(name)
 end
 
 puts say_hello("Karlie Kloss")
+
+def say_hello(default)
+  puts "Hello Ruby Programmer!"
+end
