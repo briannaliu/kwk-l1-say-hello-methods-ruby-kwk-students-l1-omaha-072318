@@ -5,6 +5,10 @@ end
 
 puts say_hello("Karlie Kloss")
 
-def say_hello(default)
+
+
+def say_hello(nil)
   puts "Hello Ruby Programmer!"
 end
+
+puts say_hello(nil)
